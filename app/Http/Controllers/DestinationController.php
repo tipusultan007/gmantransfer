@@ -16,18 +16,11 @@ class DestinationController extends Controller
      */
     public function index(Request $request): View
     {
-        $this->authorize('view-any', Destination::class);
-
-        $search = $request->get('search', '');
-
-        $destinations = Destination::search($search)
-            ->latest()
-            ->paginate(5)
-            ->withQueryString();
+        $destinations = Destination::all();
 
         return view(
-            'app.destinations.index',
-            compact('destinations', 'search')
+            'locations.destinations',
+            compact('destinations')
         );
     }
 

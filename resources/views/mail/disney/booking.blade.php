@@ -129,28 +129,28 @@
 
                             @if($mailData->disney->tourtype=='roundtour')
                                 <div><strong>Journey type :</strong> Round Tour</div>
-                                <div><strong>Pickup date & time :</strong> {{$mailData->pickup_date1}} {{$mailData->pickup_time1}}</div>
-                                <div><strong>From :</strong> {{$mailData->pickupFrom1->name}} {{$mailData->pickupHotel1->name??''}}</div>
-                                <div><strong>Destination :</strong> {{$mailData->destinationName1->name}} {{$mailData->dropHotel1->name??''}}</div>
+                                <div><strong>Pickup date & time 1:</strong> {{$mailData->pickup_date1}} {{$mailData->pickup_time1}}</div>
+                                <div><strong>Pick Up From 1:</strong> {{$mailData->pickupFrom1->name}} {{$mailData->pickupHotel1->name??''}}</div>
+                                <div><strong>Destination 1:</strong> {{$mailData->destinationName1->name}} {{$mailData->dropHotel1->name??''}}</div>
 
-                                <div><strong>Pickup date & time :</strong> {{$mailData->pickup_date2}} {{$mailData->pickup_time2}}</div>
-                                <div><strong>From :</strong> {{$mailData->pickupFrom2->name}} {{$mailData->pickupHotel2->name??''}}</div>
-                                <div><strong>Destination :</strong> {{$mailData->destinationName2->name}} {{$mailData->dropHotel2->name??''}}</div>
+                                <div><strong>Pickup date & time 2:</strong> {{$mailData->pickup_date2}} {{$mailData->pickup_time2}}</div>
+                                <div><strong>Pick Up From 2:</strong> {{$mailData->pickupFrom2->name}} {{$mailData->pickupHotel2->name??''}}</div>
+                                <div><strong>Destination 2:</strong> {{$mailData->destinationName2->name}} {{$mailData->dropHotel2->name??''}}</div>
                             @endif
 
                             @if($mailData->disney->tourtype=='multipletour')
                                 <div><strong>Journey type :</strong> Multiple Tour</div>
-                                <div><strong>Pickup date & time :</strong> {{$mailData->pickup_date1}} {{$mailData->pickup_time1}}</div>
-                                <div><strong>From :</strong> {{$mailData->pickupFrom1->name}} {{$mailData->pickupHotel1->name??''}}</div>
-                                <div><strong>Destination :</strong> {{$mailData->destinationName1->name}} {{$mailData->dropHotel1->name??''}}</div>
+                                <div><strong>Pickup date & time 1:</strong> {{$mailData->pickup_date1}} {{$mailData->pickup_time1}}</div>
+                                <div><strong>Pick Up From 1:</strong> {{$mailData->pickupFrom1->name}} {{$mailData->pickupHotel1->name??''}}</div>
+                                <div><strong>Destination 1:</strong> {{$mailData->destinationName1->name}} {{$mailData->dropHotel1->name??''}}</div>
                                 <br>
-                                <div><strong>Pickup date & time :</strong> {{$mailData->pickup_date2}} {{$mailData->pickup_time2}}</div>
-                                <div><strong>From :</strong> {{$mailData->pickupFrom2->name}} {{$mailData->pickupHotel2->name??''}}</div>
-                                <div><strong>Destination :</strong> {{$mailData->destinationName2->name}} {{$mailData->dropHotel2->name??''}}</div>
+                                <div><strong>Pickup date & time 2:</strong> {{$mailData->pickup_date2}} {{$mailData->pickup_time2}}</div>
+                                <div><strong>Pick Up From 2:</strong> {{$mailData->pickupFrom2->name}} {{$mailData->pickupHotel2->name??''}}</div>
+                                <div><strong>Destination 2:</strong> {{$mailData->destinationName2->name}} {{$mailData->dropHotel2->name??''}}</div>
                                 <br>
-                                <div><strong>Pickup date & time :</strong> {{$mailData->pickup_date3}} {{$mailData->pickup_time3}}</div>
-                                <div><strong>From :</strong> {{$mailData->pickupFrom3->name}} {{$mailData->pickupHotel3->name??''}}</div>
-                                <div><strong>Destination :</strong> {{$mailData->destinationName3->name}} {{$mailData->dropHotel3->name??''}}</div>
+                                <div><strong>Pickup date & time 3:</strong> {{$mailData->pickup_date3}} {{$mailData->pickup_time3}}</div>
+                                <div><strong>Pick Up From 3:</strong> {{$mailData->pickupFrom3->name}} {{$mailData->pickupHotel3->name??''}}</div>
+                                <div><strong>Destination 3:</strong> {{$mailData->destinationName3->name}} {{$mailData->dropHotel3->name??''}}</div>
                             @endif
                         </td>
                     </tr>

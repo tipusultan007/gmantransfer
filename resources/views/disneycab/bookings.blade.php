@@ -7,7 +7,7 @@
                 <div class="nk-block nk-block-lg">
                     <div class="nk-block-head">
                         <div class="nk-block-head-content">
-                            <h4 class="nk-block-title">GmanTransfer Bookings </h4>
+                            <h4 class="nk-block-title">DisneyCab Bookings</h4>
                             <div class="nk-block-des">
 
                             </div>
@@ -66,7 +66,7 @@
             "proccessing": true,
             "serverSide": true,
             "ajax": {
-                "url": "{{ url('allBookings') }}",
+                "url": "{{ url('disneyBookings') }}",
                 "dataType": "json"
             },
             "columns": [
@@ -169,7 +169,7 @@
             let id = $(this).data('id');
             $(".details").empty();
             $.ajax({
-                url: "{{ url('gmanDetails') }}/" + id,
+                url: "{{ url('disneyDetails') }}/" + id,
                 dataType: "JSON",
                 success: function (data) {
                     var table = '<table class="table table-bordered table-sm table-condensed">';

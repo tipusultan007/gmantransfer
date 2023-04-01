@@ -157,7 +157,7 @@
                                             <div class="row g-4">
                                                 <div class="col-12">
                                                     <div class="form-group">
-                                                        <label class="form-label text-uppercase">Choose Your Tour
+                                                        <label class="form-label text-uppercase text-uppercase">Choose Your Tour
                                                             Type</label>
                                                         <ul
                                                             class="custom-control-group custom-control-horizontal  w-100">
@@ -218,9 +218,9 @@
                                                 </div>
                                                 <div class="col-12">
                                                     <div class="form-group">
-                                                        <label class="form-label text-uppercase"
+                                                        <label class="form-label text-uppercase text-uppercase"
                                                                for="sv2-select-position">
-                                                            Pick Up From</label>
+                                                            Pick Up From 1</label>
                                                         <div class="form-control-wrap">
                                                             <select class="form-select js-select2"
                                                                     id="pickup_from1" name="pickup_from1"
@@ -237,8 +237,8 @@
                                                 </div>
                                                 <div class="col-12 pickup_hotel1">
                                                     <div class="form-group ">
-                                                        <label class="form-label" for="phone">Pickup
-                                                            Hotels</label>
+                                                        <label class="form-label text-uppercase" for="phone">Pickup
+                                                            Hotels 1</label>
                                                         <div class="form-control-wrap">
                                                             <select
                                                                 class="required form-select js-select2 form-control activehotel"
@@ -258,8 +258,8 @@
                                                 </div>
                                                 <div class="col-12 pickup_address1">
                                                     <div class="form-group ">
-                                                        <label class="form-label text-uppercase" for="pickup_address1">Pick
-                                                            Up Address</label>
+                                                        <label class="form-label text-uppercase text-uppercase" for="pickup_address1">Pick
+                                                            Up Address 1</label>
                                                         <div class="form-control-wrap">
                                                             <input type="text" name="pickup_address1"
                                                                    class="form-control" id="pickup_address1"
@@ -269,8 +269,8 @@
                                                 </div>
                                                 <div class="col-12 destination1">
                                                     <div class="form-group ">
-                                                        <label class="form-label"
-                                                               for="fullname">Destination</label>
+                                                        <label class="form-label text-uppercase"
+                                                               for="fullname">Destination 1</label>
                                                         <div class="form-control-wrap">
                                                             <select class="form-select js-select2 required"
                                                                     name="destination1" id="destination1"
@@ -287,8 +287,8 @@
                                                 </div>
                                                 <div class="col-12 dropoff_address1">
                                                     <div class="form-group">
-                                                        <label class="form-label" for="dropoff_address2">Drop Off
-                                                            Address</label>
+                                                        <label class="form-label text-uppercase" for="dropoff_address2">Drop Off
+                                                            Address 1</label>
                                                         <div class="form-control-wrap">
                                                             <input type="text" name="dropoff_address1"
                                                                    class="form-control" id="dropoff_address1">
@@ -298,8 +298,8 @@
                                                 </div>
                                                 <div class="col-12 drop_hotel1">
                                                     <div class="form-group ">
-                                                        <label class="form-label" for="phone">Drop Off
-                                                            Place</label>
+                                                        <label class="form-label text-uppercase" for="phone">Drop Off
+                                                            Place 1</label>
                                                         <div class="form-control-wrap">
                                                             <select
                                                                 class="required form-select js-select2 form-control activehotel"
@@ -317,8 +317,8 @@
                                                 </div>
                                                 <div class="col-12 pickup_from2">
                                                     <div class="form-group ">
-                                                        <label class="form-label" for="fullname">Pick Up
-                                                            Location</label>
+                                                        <label class="form-label text-uppercase" for="fullname">Pick Up
+                                                            From 2</label>
                                                         <div class="form-control-wrap">
                                                             <select class="form-select js-select2 required"
                                                                     name="pickup_from2" id="pickup_from2"
@@ -335,8 +335,8 @@
                                                 </div>
                                                 <div class="col-12 pickup_hotel2">
                                                     <div class="form-group ">
-                                                        <label class="form-label" for="phone">Pickup
-                                                            Hotels</label>
+                                                        <label class="form-label text-uppercase" for="phone">Pickup
+                                                            Hotels 2</label>
                                                         <div class="form-control-wrap">
                                                             <select
                                                                 class="required form-select js-select2 form-control activehotel"
@@ -355,8 +355,8 @@
                                                 </div>
                                                 <div class="col-12 pickup_address2">
                                                     <div class="form-group ">
-                                                        <label class="form-label" for="pickup_address2">Pick Up
-                                                            Address</label>
+                                                        <label class="form-label text-uppercase" for="pickup_address2">Pick Up
+                                                            Address 2</label>
                                                         <div class="form-control-wrap">
                                                             <input type="text" name="pickup_address2"
                                                                    class="form-control" id="pickup_address2">
@@ -365,8 +365,8 @@
                                                 </div>
                                                 <div class="col-12 destination2">
                                                     <div class="form-group ">
-                                                        <label class="form-label"
-                                                               for="fullname">Destination</label>
+                                                        <label class="form-label text-uppercase"
+                                                               for="fullname">Destination 2</label>
                                                         <div class="form-control-wrap">
                                                             <select class="form-select js-select2 required"
                                                                     name="destination2" id="destination2"
@@ -385,16 +385,16 @@
                                                 </div>
                                                 <div class="col-12 dropoff_address2">
                                                     <div class="form-group ">
-                                                        <label class="form-label" for="dropoff_address2">Drop Off
-                                                            Address</label>
+                                                        <label class="form-label text-uppercase" for="dropoff_address2">Drop Off
+                                                            Address 2</label>
                                                         <input type="text" name="dropoff_address2"
                                                                class="form-control" id="dropoff_address2">
                                                     </div>
                                                 </div>
                                                 <div class="col-12 drop_hotel2">
                                                     <div class="form-group ">
-                                                        <label class="form-label" for="phone">Drop Off
-                                                            Place</label>
+                                                        <label class="form-label text-uppercase" for="phone">Drop Off
+                                                            Place 2</label>
                                                         <div class="form-control-wrap">
                                                             <select
                                                                 class="required form-select js-select2 form-control activehotel"
@@ -415,8 +415,8 @@
 
                                                 <div class="col-12 pickup_from3">
                                                     <div class="form-group ">
-                                                        <label class="form-label" for="fullname">Pick Up
-                                                            Location</label>
+                                                        <label class="form-label text-uppercase" for="fullname">Pick Up
+                                                            From 3</label>
                                                         <div class="form-control-wrap">
                                                             <select class="form-select js-select2 required"
                                                                     name="pickup_from3" id="pickup_from3"
@@ -435,16 +435,16 @@
                                                 </div>
                                                 <div class="col-12 pickup_address3">
                                                     <div class="form-group ">
-                                                        <label class="form-label" for="pickup_address3">Pick Up
-                                                            Address</label>
+                                                        <label class="form-label text-uppercase" for="pickup_address3">Pick Up
+                                                            Address 3</label>
                                                         <input type="text" name="pickup_address3"
                                                                class="form-control" id="pickup_address3">
                                                     </div>
                                                 </div>
                                                 <div class="col-12 pickup_hotel3">
                                                     <div class="form-group ">
-                                                        <label class="form-label" for="phone">Pickup
-                                                            Hotels</label>
+                                                        <label class="form-label text-uppercase" for="phone">Pickup
+                                                            Hotels 3</label>
                                                         <div class="form-control-wrap">
                                                             <select
                                                                 class="required form-select js-select2 form-control activehotel"
@@ -464,8 +464,8 @@
                                                 </div>
                                                 <div class="col-12 destination3">
                                                     <div class="form-group ">
-                                                        <label class="form-label"
-                                                               for="fullname">Destination</label>
+                                                        <label class="form-label text-uppercase"
+                                                               for="fullname">Destination 3</label>
                                                         <div class="form-control-wrap">
                                                             <select class="form-select js-select2 required"
                                                                     name="destination3" id="destination3"
@@ -484,9 +484,8 @@
                                                 </div>
                                                 <div class="col-12 dropoff_address3">
                                                     <div class="form-group ">
-                                                        <label class="form-label text-uppercase" for="dropoff_address3">Drop
-                                                            Off
-                                                            Address</label>
+                                                        <label class="form-label text-uppercase text-uppercase" for="dropoff_address3">Drop
+                                                            Off Address 3</label>
                                                         <div class="form-control-wrap">
                                                             <input type="text" name="dropoff_address3"
                                                                    class="form-control" id="dropoff_address3">
@@ -495,8 +494,8 @@
                                                 </div>
                                                 <div class="col-12 drop_hotel3">
                                                     <div class="form-group ">
-                                                        <label class="form-label" for="phone">Drop Off
-                                                            Place</label>
+                                                        <label class="form-label text-uppercase" for="phone">Drop Off
+                                                            Place 3</label>
                                                         <div class="form-control-wrap">
                                                             <select
                                                                 class="required form-select js-select2 form-control activehotel"
@@ -516,7 +515,7 @@
                                                 </div>
                                                 <div class="col-12 passenger">
                                                     <div class="form-group ">
-                                                        <label class="form-label" for="passengers">Passengers</label>
+                                                        <label class="form-label text-uppercase" for="passengers">Passengers</label>
                                                         <div class="form-control-wrap">
                                                             <select class="form-control js-select2" name="passengers"
                                                                     id="passengers"
@@ -650,7 +649,7 @@
                                         <div class="nk-stepper-step">
                                             <div class="row pickuptime1">
                                                 <div class="form-group col-sm-6">
-                                                    <label for="pickupdate1" class="form-label">Pickup Date</label>
+                                                    <label for="pickupdate1" class="form-label text-uppercase">Pickup Date 1</label>
                                                     <div class="form-control-wrap">
                                                         <input type="text" name="pickup_date1"
                                                                class="form-control date-picker required" data-date-format="yyyy-mm-dd" id="pickupdate1"
@@ -660,7 +659,7 @@
                                                 </div>
 
                                                 <div class="form-group timepicker1 col-sm-6">
-                                                    <label for="timepicker1" class="form-label">Pickup Time</label>
+                                                    <label for="timepicker1" class="form-label text-uppercase">Pickup Time 1</label>
                                                     <div class="form-control-wrap">
                                                         <input type="text" name="pickup_time1"
                                                                class="form-control timepicker required" id="timepicker1"
@@ -671,7 +670,7 @@
                                             </div>
                                             <div class="row pickuptime2">
                                                 <div class="form-group col-sm-6">
-                                                    <label for="pickupdate2" class="form-label">Pickup Date</label>
+                                                    <label for="pickupdate2" class="form-label text-uppercase">Pickup Date 2</label>
                                                     <div class="form-control-wrap">
                                                         <input type="text" name="pickup_date2"
                                                                class="form-control date-picker" id="pickupdate2"
@@ -681,7 +680,7 @@
                                                 </div>
 
                                                 <div class="form-group timepicker2 col-sm-6">
-                                                    <label for="timepicker2" class="form-label">Pickup Time</label>
+                                                    <label for="timepicker2" class="form-label text-uppercase">Pickup Time 2</label>
                                                     <div class="form-control-wrap">
                                                         <input type="text" name="pickup_time2"
                                                                class="form-control timepicker" id="timepicker2"
@@ -691,7 +690,7 @@
                                             </div>
                                             <div class="row pickuptime3">
                                                 <div class="form-group col-sm-6">
-                                                    <label for="pickupdate2" class="form-label">Pickup Date</label>
+                                                    <label for="pickupdate2" class="form-label text-uppercase">Pickup Date 3</label>
                                                     <div class="form-control-wrap">
                                                         <input type="text" name="pickup_date2"
                                                                class="form-control date-picker" id="pickupdate2"
@@ -701,7 +700,7 @@
                                                 </div>
 
                                                 <div class="form-group timepicker1 col-sm-6">
-                                                    <label for="timepicker3" class="form-label">Pickup Time</label>
+                                                    <label for="timepicker3" class="form-label text-uppercase">Pickup Time 3</label>
                                                     <div class="form-control-wrap">
                                                         <input type="text" name="pickup_time3"
                                                                class="form-control timepicker" id="timepicker3"
@@ -712,14 +711,14 @@
                                             </div>
                                             <div class="row">
                                                 <div class="form-group col-md-6 col-sm-6">
-                                                    <label class="form-label" for="">Arrival Flight Number</label>
+                                                    <label class="form-label text-uppercase" for="">Arrival Flight Number</label>
                                                     <div class="form-control-wrap">
                                                         <input type="text" class="form-control" name="flight_no"
                                                                placeholder="EX: EZY6235" required>
                                                     </div>
                                                 </div>
                                                 <div class="form-group col-md-6 col-sm-6">
-                                                    <label class="form-label" for="luggages">Luggages</label>
+                                                    <label class="form-label text-uppercase" for="luggages">Luggages</label>
                                                     <div class="form-control-wrap">
                                                         <select class="js-select2 form-control"
                                                                 name="luggages" data-placeholder="Choose Luggages">
@@ -770,14 +769,14 @@
                                             </div>
                                             <div class="row mt-2 extraseats">
                                                 <div class="form-group col-md-6 col-sm-6">
-                                                    <label class="form-label" for="childSeat">Child Seat</label>
+                                                    <label class="form-label text-uppercase" for="childSeat">Child Seat</label>
                                                     <div class="form-control-wrap">
                                                         <input type="number" min="0" class="form-control"
                                                                name="child_seat" id="child_seat">
                                                     </div>
                                                 </div>
                                                 <div class="form-group col-md-6 col-sm-6">
-                                                    <label class="form-label" for="childSeat">Booster</label>
+                                                    <label class="form-label text-uppercase" for="childSeat">Booster</label>
                                                     <div class="form-control-wrap">
                                                         <input type="number" min="0" class="form-control" name="booster"
                                                                id="booster">
@@ -786,7 +785,7 @@
                                                 </div>
                                             </div>
                                             <div class="form-group notes">
-                                                <label class="form-label" for="">Additional Notes</label>
+                                                <label class="form-label text-uppercase" for="">Additional Notes</label>
                                                 <div class="form-control-wrap">
                                                     <input type="text" name="notes" class="form-control"
                                                            placeholder="EX: Bulky luggage, Wheel chair, etc">
@@ -800,14 +799,14 @@
                                         <div class="nk-stepper-step">
                                             <div class="row">
                                                 <div class="form-group col-6">
-                                                    <label class="form-label" for="firstName">First Name</label>
+                                                    <label class="form-label text-uppercase" for="firstName">First Name</label>
                                                     <div class="form-control-wrap">
                                                         <input type="text" name="first_name" id="first_name"
                                                                class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="form-group col-6">
-                                                    <label class="form-label" for="lastName">Last Name</label>
+                                                    <label class="form-label text-uppercase" for="lastName">Last Name</label>
                                                     <div class="form-control-wrap">
                                                         <input type="text" name="last_name" id="last_name"
                                                                class="form-control" required>
@@ -815,21 +814,21 @@
                                                 </div>
 
                                                 <div class="form-group col-6">
-                                                    <label class="form-label" for="email">Email</label>
+                                                    <label class="form-label text-uppercase" for="email">Email</label>
                                                     <div class="form-control-wrap">
                                                         <input type="email" name="email" id="email" class="form-control"
                                                                required>
                                                     </div>
                                                 </div>
                                                 <div class="form-group col-6">
-                                                    <label class="form-label" for="phone">Phone</label>
+                                                    <label class="form-label text-uppercase" for="phone">Phone</label>
                                                     <div class="form-control-wrap">
                                                         <input type="tel" name="phone" id="phone" class="form-control"
                                                                required>
                                                     </div>
                                                 </div>
                                                 <div class="col-12">
-                                                    <label class="form-label">Payment Method</label>
+                                                    <label class="form-label text-uppercase">Payment Method</label>
                                                     <ul class="custom-control-group custom-control-horizontal w-100">
                                                         <li>
                                                             <div class="custom-control custom-control-sm custom-radio custom-control-pro">
@@ -842,7 +841,7 @@
 
                                                         <li>
                                                             <div class="custom-control custom-control-sm custom-radio custom-control-pro">
-                                                                <input type="radio" class="custom-control-input" name="payment_method_id" value="3" id="cardPayment">
+                                                                <input type="radio" class="custom-control-input" name="payment_method_id" value="4" id="cardPayment">
                                                                 <label class="custom-control-label" for="cardPayment">
                                                                     <span>Card</span>
                                                                 </label>
@@ -850,7 +849,7 @@
                                                         </li>
                                                         <li>
                                                             <div class="custom-control custom-control-sm custom-radio custom-control-pro">
-                                                                <input type="radio" class="custom-control-input" name="payment_method_id" value="4" id="bankPayment">
+                                                                <input type="radio" class="custom-control-input" name="payment_method_id" value="3" id="bankPayment">
                                                                 <label class="custom-control-label" for="bankPayment">
                                                                     <span>Bank</span>
                                                                 </label>
@@ -936,7 +935,26 @@
     $(".pickuptime2,.pickuptime3").hide();
     $(".drop_hotel1,.drop_hotel2,.drop_hotel3").hide();
     $(".pickup_address1, .pickup_address2, .pickup_address3, .dropoff_address1, .dropoff_address2, .dropoff_address3").hide();
+    $("input[name='addChildSeats']").on("change",function () {
+        let value = $(this).val();
+        if ($("#addChildSeats").is(":checked")){
+            $(".extraseats").show();
+        }else{
+            $(".extraseats").hide();
+            $("#child_seat").val("");
+            $("#booster").val("");
+        }
+    })
 
+    $("input[name='addNotes']").on("change",function () {
+        let value = $(this).val();
+        if ($("#addNotes").is(":checked")){
+            $(".notes").show();
+        }else{
+            $(".notes").hide();
+            $("input[name='notes']").val('');
+        }
+    })
     $(".economy,.business").hide();
 
     $("input[name='tourtype']").on('change', function () {

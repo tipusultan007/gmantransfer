@@ -115,31 +115,31 @@ class PickupDestination extends Model
 
     public function getPickupDate1Attribute($date)
     {
-        return Carbon::parse($date)->format('d-m-Y');
+        return Carbon::parse($date)->format('j M Y');
     }
 
     public function getPickupDate2Attribute($date)
     {
-        return Carbon::parse($date)->format('d-m-Y');
+        return Carbon::parse($date)->format('j M Y');
     }
 
     public function getPickupDate3Attribute($date)
     {
-        return Carbon::parse($date)->format('d-m-Y');
+        return Carbon::parse($date)->format('j M Y');
     }
 
     public function getPickupTime1Attribute($date)
     {
-        return Carbon::parse($date)->format('H:i');
+        return Carbon::parse($date)->format('h:i a');
     }
 
     public function getPickupTime2Attribute($date)
     {
-        return Carbon::parse($date)->format('H:i');
+        return Carbon::parse($date)->format('h:i a');
     }
 
     public function getPickupTime3Attribute($date)
     {
-        return Carbon::parse($date)->format('H:i');
+        return Carbon::parse($date)->format('h:i a');
     }
 }

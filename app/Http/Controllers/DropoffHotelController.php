@@ -17,18 +17,12 @@ class DropoffHotelController extends Controller
      */
     public function index(Request $request): View
     {
-        $this->authorize('view-any', DropoffHotel::class);
 
-        $search = $request->get('search', '');
-
-        $dropoffHotels = DropoffHotel::search($search)
-            ->latest()
-            ->paginate(5)
-            ->withQueryString();
+        $dropoffHotels = DropoffHotel::all();
 
         return view(
-            'app.dropoff_hotels.index',
-            compact('dropoffHotels', 'search')
+            'hotels.dropoffHotel',
+            compact('dropoffHotels')
         );
     }
 
